@@ -8,8 +8,8 @@ Version: 1
 */ 
 
 .bg1{
-         background:url("images/HeaderImage.jpg"); /* add the background image */
-         background-size: cover;/*  make the image cover the whole div */
+         background:url("images/HeaderImage.jpg");
+         background-size: cover;
 }
 
 .navbar{

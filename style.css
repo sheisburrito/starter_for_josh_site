@@ -1,3 +1,12 @@
+/*   
+Theme Name: Josh's WordPress Site
+Theme URI: http://joshwhitkin.com
+Description: Josh’s WordPress theme.
+Author: Me
+Author URI: http://joshwhitkin.com
+Version: 1
+*/ 
+
 .bg1{
          background:url("images/HeaderImage.jpg"); /* add the background image */
          background-size: cover;/*  make the image cover the whole div */

@@ -8,7 +8,7 @@ Version: 1
 */ 
 
 .bg1{
-         background:url("http://170.187.231.66/~mesh12/wp-content/themes/starter_for_josh_site/images/Header.jpg");
+         background-image:url("http://170.187.231.66/~mesh12/wp-content/themes/starter_for_josh_site/images/Header.jpg");
          background-size: cover;
 }
 

@@ -8,7 +8,7 @@ Version: 1
 */ 
 
 .bg1{
-         background:url("images/Header.jpg");
+         background:url("http://170.187.231.66/~mesh12/wp-content/themes/starter_for_josh_site/images/Header.jpg");
          background-size: cover;
 }
 
@@ -127,7 +127,7 @@ Version: 1
 }
 
 footer{
-         background-image:url("images/Footer.jpg");
+         background-image:url("http://170.187.231.66/~mesh12/wp-content/themes/starter_for_josh_site/images/Footer.jpg");
          background-size:cover;
          width:100%;
          background-position: center center;

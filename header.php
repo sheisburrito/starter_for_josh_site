@@ -4,8 +4,6 @@
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet"> 
@@ -35,6 +33,7 @@
 <body>
 
     <header class="container-fluid bg1">
+      <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
@@ -65,9 +64,9 @@
       </nav> 
       <div class="container tag"><!-- div that holds the content in the middle of the page-->
         <h1 > Games Design For the Future </h1><!--  the main tag line-->
+              </div>
     </div><!-- container-->
 
 <!-- very important that this code is added-->
-<?php wp_head(); ?> 
-   
+<?php wp_head(); ?>   
 </header>

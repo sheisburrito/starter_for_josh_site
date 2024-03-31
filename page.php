@@ -18,7 +18,6 @@
         
     </div><!--post class-->
 
-   
 <?php endwhile; ?>
     
     <?php else: ?>

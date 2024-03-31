@@ -602,4 +602,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 			}
 			return $result;
 		}
+
 	}
+
+endif;

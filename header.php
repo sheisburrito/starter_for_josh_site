@@ -27,18 +27,17 @@
                  echo ' - page '. $paged; }
            ?>
 </title>
+
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
+
 <body>
-    <header class="container-fluid bg-1">
+<header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href=" http://206.189.45.97/~mesh1/"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
       
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
@@ -61,8 +60,8 @@ wp_nav_menu( array(
       </nav> 
 
       <div class="container tag"><!-- div that holds the content in the middle of the page-->
-        <h1 > Games Design For the Future </h1><!--  the main tag line-->
-              </div>
+            <h1><?php the_field('maintagline'); ?></h1>
+      </div>
     </div><!-- container-->
 <?php wp_head(); ?>   
 </header>

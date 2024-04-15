@@ -31,9 +31,7 @@
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
 <body>
-<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
-      <div class="container">
-        <nav class="navbar navbar-expand-md navbar-dark">
+<header class="container-fluid small_herobg"> <!-- div for the main image that stretches to the edge of the page -->        <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
       <!-- Toggler/collapsibe Button -->
@@ -56,9 +54,8 @@ wp_nav_menu( array(
 ?>
       </nav> 
 
-      <div class="container smallpage-tag"><!-- div that holds the content in the middle of the page-->
-<h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>
-</div>              
-</div><!-- container-->
+      <div class="container smallpage-tag"> <!-- div holds content in the middle of the page -->
+            <!--<h1 class="smallpage-title">Projects</h1> main tag line -->
+
 <?php wp_head(); ?>   
 </header>

@@ -37,8 +37,9 @@
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
-      
+           <!--  <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a> -->
+           <a class="navbar-brand" href="#"><lottie-player src="http://170.187.231.66/~mesh12/wp-content/themes/starter_for_josh_site/images/logo-anim.json"></script>
+
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
